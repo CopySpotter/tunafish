@@ -1,6 +1,6 @@
 # TunaFish
 
-TunaFish ist ein kleines Programm, das Schachstellungen untersucht. Es ist eine **Schach-Analyse-Engine**: Es rechnet mögliche Züge durch und sucht den voraussichtlich besten Zug. TunaFish läuft auf dem eigenen Computer oder im Browser und braucht dafür keinen Schachserver.
+TunaFish ist ein kleines Programm, das Schachstellungen untersucht. Es ist eine **Schach-Analyse-Engine**: Es rechnet mögliche Züge durch und sucht den voraussichtlich besten Zug. TunaFish läuft auf dem eigenen Computer – direkt im Browser – und braucht dafür keinen Schachserver.
 
 > **Einfach erklärt:** TunaFish ist eine Rechenhilfe im Hintergrund. Es schaut sich das Brett an und sagt, welcher Zug vermutlich am besten ist.
 
