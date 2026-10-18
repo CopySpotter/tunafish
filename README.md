@@ -32,7 +32,7 @@ Alle Berechnungen sollen lokal stattfinden. *Lokal* heißt: Die Stellung bleibt 
 
 ## Was das Programm technisch kann
 
-TunaFish ist in **TypeScript** geschrieben. TypeScript ist eine Programmiersprache, die auf JavaScript aufbaut und zusätzliche Prüfungen für Programmierer:innen bietet. Beim Bauen wird daraus JavaScript. JavaScript ist die Sprache, die direkt im Browser ausgeführt wird.
+TunaFish ist in **TypeScript** geschrieben. TypeScript ist eine Programmiersprache, die auf JavaScript aufbaut und zusätzliche Prüfungen für Programmierer:innen bietet. Der TypeScript-Quelltext wird in JavaScript übersetzt, damit der Browser ihn ausführen kann. JavaScript ist die Sprache, die direkt im Browser ausgeführt wird.
 
 > **Einfach erklärt:** TypeScript hilft beim sauberen Programmieren. Am Ende entsteht JavaScript, das Chrome, Firefox und andere Browser verstehen.
 
