@@ -168,7 +168,15 @@ Der vorhandene Browser-Worker lädt momentan noch Tonnetto über ein **CDN**. CD
 
 Ein **Web Worker** ist ein kleiner Hintergrundprozess im Browser. Er rechnet, ohne dass das sichtbare Programm einfriert. Für die spätere Analyse ist das wichtig, weil die Person während der Berechnung weiter auf das Brett schauen können soll.
 
-> **Einfach erklärt:** Ein Worker ist ein zweiter Helfer im Browser. Er denkt im Hintergrund, damit das Spiel nicht stehen bleibt.
+> **Einfach erklärt:** Ein Worker ist ein zweiter Helfer im Browser. Er bleibt immer aktiv im Hintergrund.
+Einfach‑Schach erstellt den Web Worker über eine standardisierte Browser‑Schnittstelle.
+Dann läuft TunaFish innerhalb dieses Web Workers.
+Der Schnittstellenvorgang ist:
+1. Einfach‑Schach schickt dem Worker: Stellung (FEN) und Rechentiefe.
+2. Der Worker gibt diese Daten an TunaFish weiter.
+3. TunaFish rechnet.
+4. Der Worker schickt das Ergebnis zurück an Einfach‑Schach.
+Der Web Worker ist also ein etablierter Browser-Bereich für Hintergrundarbeit; TunaFish ist das Schachprogramm, das darin arbeitet.
 
 Die aktuelle Schnittstelle gibt nur den besten Zug zurück. Für den Gefahrencheck benötigen wir außerdem eine Bewertung, eine kurze Hauptvariante und Hinweise darauf, was der gegnerische Zug bedroht.
 
