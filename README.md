@@ -4,9 +4,19 @@ TunaFish ist ein kleines Programm, das Schachstellungen untersucht. Es ist eine 
 
 > **Einfach erklärt:** TunaFish ist eine Rechenhilfe im Hintergrund. Es schaut sich das Brett an und sagt, welcher Zug vermutlich am besten ist.
 
-Eine echte Schach-Analyse-Engine kennt alle erlaubten Züge, spielt viele Möglichkeiten im Hintergrund durch und nimmt an, dass der Gegner gut antwortet. Danach bewertet sie die entstehenden Stellungen und wählt den Zug mit dem besten Ergebnis. Sie arbeitet also nicht nur mit einzelnen Regeln wie „nimm eine angegriffene Figur“, sondern rechnet Zugfolgen voraus.
+Eine 'echte' Schach-Analyse-Engine kennt alle erlaubten Züge, spielt viele Möglichkeiten im Hintergrund durch und nimmt an, dass der Gegner gut antwortet. Danach bewertet sie die entstehenden Stellungen und wählt den Zug mit dem besten Ergebnis. Sie arbeitet also nicht nur mit einzelnen Regeln wie „nimm eine angegriffene Figur“, sondern rechnet Zugfolgen voraus.
 
-> **Einfach erklärt:** Die Engine denkt mehrere Züge voraus: „Wenn ich das tue, kann der Gegner so antworten – und dann passiert das.“ Deshalb kann sie Gefahren besser erkennen.
+Eine echte Schach-Analyse-Engine ist ein Programm, das eine Stellung regelgerecht berechnet und selbstständig bewertet.
+Sie macht dabei ungefähr Folgendes:
+1. Sie kennt alle erlaubten Züge.
+2. Sie spielt viele Möglichkeiten im Hintergrund durch.
+3. Sie nimmt an, dass der Gegner gut antwortet.
+4. Sie bewertet, welche Stellung danach besser oder schlechter ist.
+5. Sie wählt den Zug mit dem besten Ergebnis.
+TunaFish ist eine echte Engine, weil sie nicht nur feste Regeln wie „nimm eine angegriffene Figur“ abarbeitet. 
+Sie rechnet Zugfolgen voraus: „Wenn ich das tue, kann der Gegner antworten – und dann passiert das.“
+
+> **Einfach erklärt:** Die Engine denkt mehrere Züge voraus.
 
 TunaFish wurde aus dem Projekt [Tonnetto](https://github.com/marcobuontempo/tonnetto) geforkt. Ein *Fork* ist eine eigene Kopie eines bestehenden offenen Programms. Diese Kopie wird nun unter dem Namen TunaFish unabhängig weiterentwickelt.
 
