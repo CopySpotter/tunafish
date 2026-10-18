@@ -10,11 +10,11 @@ Eine echte Schach-Analyse-Engine kennt alle erlaubten Züge, spielt viele Mögli
 
 TunaFish wurde aus dem Projekt [Tonnetto](https://github.com/marcobuontempo/tonnetto) geforkt. Ein *Fork* ist eine eigene Kopie eines bestehenden offenen Programms. Diese Kopie wird nun unter dem Namen TunaFish unabhängig weiterentwickelt.
 
-> **Einfach erklärt:** Wir nehmen ein vorhandenes, erlaubtes Programm als Anfang und bauen es nach unseren eigenen Zielen weiter aus.
+> **Einfach erklärt:** Wir nehmen ein vorhandenes, quelloffenes Programm, dessen Code öffentlich einsehbar und unter der MIT-Lizenz weiterentwickelbar ist, als Anfang.
 
 Das Ziel ist nicht, eine Weltklasse-Engine wie Stockfish nachzubauen. TunaFish soll leicht, verständlich und schnell genug für eine Lernhilfe im Browser sein. Die Engine soll zum Beispiel eine Gefahr erkennen, nachdem eine Person einen Zug geplant hat.
 
-> **Einfach erklärt:** TunaFish muss nicht die stärkste Schachmaschine der Welt sein. Es soll gut genug sein, um zu sagen: „Achtung, nach deinem Zug kann das passieren.“
+> **Einfach erklärt:** TunaFish muss nicht die stärkste Schachmaschine der Welt sein. Es soll gut genug sein, um zu sagen: „Achtung: Nach diesem Zug kann eine bestimmte Zugfolge dem Gegner einen Vorteil bringen.“
 
 ## Wofür TunaFish verwendet wird
 
